@@ -18,9 +18,9 @@ yarn run test test/hardhat/Scenario.test.ts
 
 
 ## foundry 파일 실행 방법
-foundry 설치
-forge-std가 설치안될 경우 수동설치
-- mkdir -p lib
-- git clone https://github.com/foundry-rs/forge-std.git lib/forge-std
-forge build
-forge test --match-path test/foundry/DirectOrder.t.sol -vv
+- foundry 설치
+- forge-std가 설치안될 경우 수동설치
+  - mkdir -p lib
+  - git clone https://github.com/foundry-rs/forge-std.git lib/forge-std
+- forge build
+- forge test --match-path test/foundry/DirectOrder.t.sol -vv
