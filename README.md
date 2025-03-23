@@ -2,6 +2,13 @@
 For submitting solidity-based smartcontract code samples
 
 본 코드는 2023년 2분기에 C2C 배송서비스 프로토타입 형식으로 만들었던 코드입니다.
+
+배송 플로우는 아래와 같습니다.
+- 화주(Shipper)가 주문을 생성 (createOrder)
+- 배송자 (Carrier)가 배송할 주문을 선택 (selectOrder)
+- 배송자 (Carrier)가 배송할 주문을 픽업 (pickOrder)
+- 배송자 (Carrier)가 배송지에 배송완료 (completeOrder)
+
 코드는 solidity 기반 스마트컨트랙트 코드이며 하기의 내용들이 포함되어 있습니다.
 * Solidity
   - EIP 2770, 2771 기반 수수료 위임대납
