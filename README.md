@@ -1,5 +1,17 @@
 # code-submits
 For submitting solidity-based smartcontract code samples
+
+본 코드는 2023년 2분기에 C2C 배송서비스 프로토타입 형식으로 만들었던 코드입니다.
+코드는 solidity 기반 스마트컨트랙트 코드이며 하기의 내용들이 포함되어 있습니다.
+* Solidity
+  - EIP 2770, 2771 기반 수수료 위임대납
+  - EIP-712 기반 custom struct signature
+  - EIP-2612 permit
+  - UUPS 기반 upgradable contract (OrderRules, SBTMinter)
+  - SBT 표준 (EIP-5192, 5484)  - 
+* hardhat (ts)
+* foundry
+
 ## 실행 방법
 ```
 yarn
